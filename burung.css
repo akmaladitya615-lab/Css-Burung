@@ -1,0 +1,268 @@
+/* ====== STYLE UMUM ====== */
+body {
+    margin: 0;
+    font-family: "Poppins", Arial, sans-serif;
+    background-color: #fafbff;
+    color: #2d2d2d;
+    line-height: 1.8;
+}
+
+/* ====== HEADER ====== */
+#header {
+    background: linear-gradient(135deg, #ffffff, #e7ebff);
+    color: #2b2b52;
+    text-align: center;
+    padding: 80px 20px;
+    border-bottom: 2px solid #cfd8ff;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+}
+
+#header h1 {
+    font-size: 2.6em;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+blockquote {
+    font-style: italic;
+    color: #555;
+    font-size: 1.1em;
+    max-width: 700px;
+    margin: 0 auto;
+    border-left: 4px solid #5c6bf3;
+    padding-left: 20px;
+    line-height: 1.6;
+}
+
+#soekarno {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+    font-weight: 600;
+    color: #7a7a7a;
+}
+
+/* ====== NAVBAR ====== */
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 0;
+    padding: 15px 0;
+    background: linear-gradient(90deg, #f3f5ff, #ffffff);
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    backdrop-filter: blur(8px);
+}
+
+ul li a {
+    text-decoration: none;
+    color: #2b2b52;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+ul li a:hover {
+    color: #5c6bf3;
+}
+
+/* ====== GAMBAR ====== */
+.gambar {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 25px;
+    justify-items: center;
+    padding: 50px 40px;
+    background-color: #ffffff;
+}
+
+.gambar img {
+    width: 100%;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gambar img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+}
+
+/* ====== KONTEN ISI ====== */
+.isi {
+    background-color: #fafbff;
+    padding: 60px 80px;
+    text-align: justify;
+}
+
+.isi p {
+    margin-bottom: 20px;
+}
+
+.isi p strong:first-child {
+    font-size: 2.8em;
+    float: left;
+    line-height: 1;
+    margin-right: 8px;
+    color: #5c6bf3;
+    font-weight: 700;
+}
+
+.jawa {
+    color: #5c6bf3;
+    font-weight: 600;
+}
+
+/* ====== PROFIL ====== */
+#profil {
+    background-color: #ffffff;
+    padding: 60px 80px;
+    margin-top: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+#profil h3 {
+    color: #5c6bf3;
+    border-bottom: 2px solid #5c6bf3;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+#profil ul {
+    margin-left: 25px;
+}
+
+#profil li {
+    margin-bottom: 12px;
+}
+
+/* ====== BETERNAK ====== */
+#beternak {
+    background-color: #ffffff;
+    padding: 60px 80px;
+    margin-top: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+}
+
+#beternak h3 {
+    color: #5c6bf3;
+    border-bottom: 2px solid #5c6bf3;
+    padding-bottom: 8px;
+    margin-bottom: 25px;
+}
+
+#beternak h4 {
+    color: #2b2b52;
+    margin-bottom: 6px;
+}
+
+#beternak ol {
+    margin-left: 25px;
+}
+
+#beternak li {
+    margin-bottom: 15px;
+}
+
+/* ====== KOLEKSI ====== */
+.koleksi {
+    background-color: #f4f6ff;
+    padding: 60px 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+.koleksi img {
+    width: 100%;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.koleksi img:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+/* ====== PROMO ====== */
+.promo {
+    background: linear-gradient(135deg, #eef2ff, #ffffff);
+    text-align: center;
+    padding: 80px 20px;
+    border-top: 2px solid #cfd8ff;
+}
+
+.promo h2 {
+    font-size: 1.8em;
+    color: #2b2b52;
+    margin-bottom: 20px;
+}
+
+.promo h3 {
+    color: #444;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.promo strong {
+    color: #5c6bf3;
+    font-size: 1.3em;
+}
+
+#Wa {
+    color: #00b894;
+    font-weight: 600;
+}
+
+.promo h4 {
+    margin-top: 30px;
+    color: #333;
+}
+
+.promo ol {
+    list-style: none;
+    padding: 0;
+}
+
+.promo ol li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.promo a {
+    color: #5c6bf3;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.promo a:hover {
+    text-decoration: underline;
+    color: #2b2b52;
+}
+
+/* ====== RESPONSIVE ====== */
+@media (max-width: 768px) {
+    .isi, #profil, #beternak {
+        padding: 30px 20px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    .gambar, .koleksi {
+        padding: 30px 20px;
+    }
+
+    .gambar img, .koleksi img {
+        width: 100%;
+    }
+}
